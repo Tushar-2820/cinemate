@@ -1,0 +1,26 @@
+API
+
+Read Access Token : eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNGNmYzBkZWU5Y2FlNDA0Y2YyZGE1ODk5NjNmYjMxZSIsIm5iZiI6MTczOTQyNTU2My40NzksInN1YiI6IjY3YWQ4NzFiMTE2OGRlZGExMDlmNGFkNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9ftvJvQSd9kh6Pv4iQLWUxb3UAsjKGvkgySqfJhNaMM
+
+API Key : c4cfc0dee9cae404cf2da589963fb31e
+
+BASE URL : https://api.themoviedb.org/3 
+
+
+DETAILS
+https://api.themoviedb.org/3/movie/939243?api_key=c4cfc0dee9cae404cf2da589963fb31e&language=en-US
+
+SEARCH 
+https://api.themoviedb.org/3/search/movie?api_key=c4cfc0dee9cae404cf2da589963fb31e&query=avatar
+
+UPCOMING 
+https://api.themoviedb.org/3/movie/upcoming?api_key=c4cfc0dee9cae404cf2da589963fb31e&language=en-US&page=1
+
+POPULAR
+https://api.themoviedb.org/3/movie/popular?api_key=c4cfc0dee9cae404cf2da589963fb31e&language=en-US&page=1
+
+TOP RATED
+https://api.themoviedb.org/3/movie/top_rated?api_key=c4cfc0dee9cae404cf2da589963fb31e&language=en-US&page=1
+
+NOW PLAYING
+https://api.themoviedb.org/3/movie/now_playing?api_key=c4cfc0dee9cae404cf2da589963fb31e&language=en-US&page=1
