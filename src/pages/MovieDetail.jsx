@@ -20,14 +20,14 @@ export const MovieDetail = ({ apiPath }) => {
         <div className='max-w-sm'>
           <img className='rounded-lg' src={image} alt={movieDetail.title} />
         </div>
-        <div className='max-w-2xl text-white '>
+        <div className='max-w-2xl text-gray-900 dark:text-white '>
           <h2 className='text-4xl font-bold my-3 text-center lg:text-left'>{movieDetail.title}</h2>
           <p className='my-4'>{movieDetail.overview}</p>
 
           {movieDetail?.genres && (
             <p className="my-7 flex flex-wrap gap-2">
               {movieDetail.genres.map((genre) => (
-                <span key={genre.id} className="mr-2 border border-gray-600 rounded p-2">
+                <span key={genre.id} className="mr-2 border border-gray-600 rounded p-2 text-gray-900 dark:text-white">
                   {genre.name}
                 </span>
               ))}
@@ -46,11 +46,11 @@ export const MovieDetail = ({ apiPath }) => {
             <span>{`${movieDetail.vote_count} reviews`}</span>
           </div>
 
-          <p className='my-4'><span className='font-bold'>Runtime:</span> {`${movieDetail.runtime} min.`}</p>
-          <p className='my-4'><span className='font-bold'>Budget:</span> {movieDetail.budget}</p>
-          <p className='my-4'><span className='font-bold'>Revenue:</span> {movieDetail.revenue}</p>
-          <p className='my-4'><span className='font-bold'>Release Date:</span> {movieDetail.release_date}</p>
-          <p className='my-4'><span className='font-bold'>IMDB Code:</span> <a href={`https://imdb.com/title/${movieDetail.imdb_id}`} target="_blank" rel='noreferrer'>{movieDetail.imdb_id}</a></p>
+          <p className='my-4 text-gray-900 dark:text-white'><span className='font-bold'>Runtime:</span> {`${movieDetail.runtime} min.`}</p>
+          <p className='my-4 text-gray-900 dark:text-white'><span className='font-bold'>Budget:</span> {movieDetail.budget}</p>
+          <p className='my-4 text-gray-900 dark:text-white'><span className='font-bold'>Revenue:</span> {movieDetail.revenue}</p>
+          <p className='my-4 text-gray-900 dark:text-white'><span className='font-bold'>Release Date:</span> {movieDetail.release_date}</p>
+          <p className='my-4 text-gray-900 dark:text-white'><span className='font-bold'>IMDB Code:</span> <a href={`https://imdb.com/title/${movieDetail.imdb_id}`} target="_blank" rel='noreferrer'>{movieDetail.imdb_id}</a></p>
 
 
 

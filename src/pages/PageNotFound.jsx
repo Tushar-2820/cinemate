@@ -11,7 +11,7 @@ export const PageNotFound = () => {
     <main>
       <section className="flex flex-col justify-center px-2">
         <div className="flex flex-col items-center justify-center my-4">
-          <p className="font-bold text-white text-4xl my-10">404, Oops!</p>
+          <p className="font-bold text-gray-900 dark:text-white text-4xl my-10">404, Oops!</p>
           <div className="max-w-sm">
             <img className="rounded" src={PageNotFoundImage} alt="404, Oops Page Not Found" />
           </div>
